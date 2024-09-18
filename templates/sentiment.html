@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{url_for('static',filename= 'css/sentiment.css')}}">
+
+    <body>
+        <h1>SENTIMENT ANALYSIS OF A LARGE MOVIE DATA REVIEW</h1>
+        <div class="container">
+            <h1>Customer Review Form</h1>
+            <form action="/submit" method="post">
+                <div class="form-group">
+                    <label for="review">Enter Your Review:</label><br>
+                    <textarea id="review" name="review" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit Review</button><br>
+
+                </div>
+            </form>
+
+            {% if submitted %}
+            <p><strong>Predicted Sentiment:</strong> {{ Predicted }}</p>
+    
+            <!-- Confidence Levels and Chart -->
+            <h2>Sentiment Confidence Levels</h2>
+            <img src="{{ url_for('chart', positive=Positive, negative=Negative) }}" alt="Sentiment Confidence Chart">
+        {% endif %}
+    
+        </div>
+
+
+
+
+
+
+    </body>
+
+</head>
