@@ -32,10 +32,9 @@ The app is deployed using Koyeb, a serverless deployment platform. This section 
 * Deploy the Flask app by selecting Python as the runtime and setting environment variables. Find the link to the web interface [Sentiment_Analysis](http://permanent-philippa-omicsdata-a103dcc0.koyeb.app/)
 
 ## Installation
-* Prerequisites
-Python 3.8+
-Flask
-Dependencies listed in requirements.txt
+* Python 3.8+
+* Flask
+* Dependencies listed in requirements.txt
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
