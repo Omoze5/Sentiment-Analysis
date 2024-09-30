@@ -11,7 +11,7 @@ The Large Movie Review Dataset,contains 25,000 movie reviews split evenly betwee
 * Vectorization: The reviews were converted to numerical data using TfidfVectorizer from scikit-learn.
 
 ## Model Selection
-The classification model used for this task is the Multinomial Naive Bayes classifier. It was chosen due to its effectiveness in text-based classification problems.
+The classification model used for this task is the Logistics Regression and  Multinomial Naive Bayes classifier. It was chosen due to its effectiveness in text-based classification problems.
 
 ## Flask Application
 
