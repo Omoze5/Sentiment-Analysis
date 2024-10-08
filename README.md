@@ -3,7 +3,7 @@
 This project implements a sentiment analysis model to classify movie reviews as either positive or negative. It uses a Flask web application to provide a user-friendly interface where users can input text and receive a sentiment prediction. The app is deployed on Koyeb, ensuring scalability and ease of use.
 
 ## Dataset
-The Large Movie Review Dataset,contains 25,000 movie reviews split evenly between positive and negative labels for training and 25,000 for testing. It was preprocessed and used to train a classification model for sentiment analysis.
+The Large Movie Review [Dataset](https://ai.stanford.edu/~amaas/data/sentiment/),contains 25,000 movie reviews split evenly between positive and negative labels for training and 25,000 for testing. It was preprocessed and used to train a classification model for sentiment analysis.
 
 ## Model Training
 ### Preprocessing
